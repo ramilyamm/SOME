@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_top_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.header_top_block img {
+    margin-right: 100px;
+}
+
+.header_top_block {
+    color: #0088A2;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    flex: 0 1 20%;
+}
+
+.menu_item {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #808080;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 0;
+    transition: 0.3s;
+}
+
+.menu_item:hover {
+    background-color: #0088A2;
+}
+
+.quest_section {
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quest_card {
+    flex: 0 1 30%;
+    position: relative;
+    transition: 0.4s;
+}
+
+.quest_card img {
+    width: 100%;
+}
+
+.quest_card p {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.68px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    text-align: center;
+    width: 80%;
+}
+
+.quest_card:hover {
+    transform: scale(1.15);
+}
+
+/* //// */
+.app_section {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.about_img {
+    display: flex;
+    position: relative;
+}
+
+
+.video {
+    width: 100%;
+    position: relative;
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.title {
+    color: #0088A2;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 96px;
+    font-weight: 400;
+}
+
+.questt {
+    width: 85%;
+    margin: 100px auto;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.questi {
+    width: 25%;
+    position: absolute;
+    top: 0%;
+}
+
+.questi:nth-child(1) {
+    left: 0%;
+}
+
+.questi:nth-child(2) {
+    top: 40px;
+    left: 18%;
+}
+
+.questi:nth-child(3) {
+    left: 36%;
+}
+
+.questi:nth-child(4) {
+    top: 40px;
+    left: 54%;
+}
+
+.questi:nth-child(5) {
+    left: 72%;
+}
+
+.about_project {
+    height: 60vh;
+    color: #0088A2;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 100;
+
+}
+
+.project_p {
+    display: flex;
+    color: #707070;
+    align-items: center;
+    width: 1391px;
+    margin: auto;
+}
+
+.save_img {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.save_p {
+    display: flex;
+    width: 1630px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    color: #707070;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #0088A2;
+    min-height: 300px;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.footer_title {
+    margin: 50px 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-size: 96px;
+    font-weight: 600;
+}
+
+.social_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.footer_block {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.footer_text {
+    flex: 0 1 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_h {
+    text-align: center;
+    color: #FDFDFD;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.footer_a {
+    color: #FDFDFD;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer_a_left {
+    width: 401px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.footer_p {
+    width: 493px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
